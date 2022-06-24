@@ -1,6 +1,6 @@
+https://ohkl.github.io/about/index.html
 https://ohkl.github.io/404/index.html
 https://ohkl.github.io/categories/index.html
 https://ohkl.github.io/tags/index.html
-https://ohkl.github.io/about/index.html
 https://ohkl.github.io/2022/06/22/hello-world/
 https://ohkl.github.io/
