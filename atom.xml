@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>bluaz blog</title>
-  <icon>https://ohkl.github.io/icon.png</icon>
+  
   <subtitle>「 蝉噪林逾静，鸟鸣山更幽。 」</subtitle>
   <link href="https://ohkl.github.io/atom.xml" rel="self"/>
   
