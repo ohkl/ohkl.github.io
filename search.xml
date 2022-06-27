@@ -4,6 +4,10 @@
     <title>Hello World</title>
     <url>/2022/06/22/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+ <span id="more"></span>
+
+
+
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -17,5 +21,46 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>我的博客详细介绍</title>
+    <url>/2022/06/27/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h5 id="这是我的blog搭建教学"><a href="#这是我的blog搭建教学" class="headerlink" title="这是我的blog搭建教学"></a>这是我的blog搭建教学</h5> <span id="more"></span>
+
+<h3 id="github注册"><a href="#github注册" class="headerlink" title="github注册"></a>github注册</h3><p>首先我们先要准备一台电脑和一个github 或 gitlab账号</p>
+<img alt="github" src="https://lh1.hetaousercontent.com/img/4a8bf31bb30c65da.jpg?thumbnail=true">
+
+<p>github在网址<a href="https://github.com/">在这</a>请自行注册具体一看就会。</p>
+<img alt="zhuce" src="https://lh1.hetaousercontent.com/img/25bb9d9822a9e7bb.png?thumbnail=true">
+
+<h5 id="创建github-pages"><a href="#创建github-pages" class="headerlink" title="创建github pages"></a>创建github pages</h5><p>注册完成后创建一个仓库取名为：【your name】.github.io</p>
+<p><a href="https://imgtu.com/i/jEIPjP"><img src="https://s1.ax1x.com/2022/06/27/jEIPjP.png" alt="jEIPjP.png"></a></p>
+<p>要按我这样设置不然做不了github pages</p>
+<p>然后找到仓库点进去点击设置</p>
+<p><a href="https://imgtu.com/i/jEIWvt"><img src="https://s1.ax1x.com/2022/06/27/jEIWvt.png" alt="jEIWvt.png"></a></p>
+<p>找到pages</p>
+<p>创建一个</p>
+<p>创建完成会显示</p>
+<p><a href="https://imgtu.com/i/jEo954"><img src="https://s1.ax1x.com/2022/06/27/jEo954.png" alt="jEo954.png"></a></p>
+<p>即可完成</p>
+<h5 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h5><p>下一步我们要安装<a href="https://nodejs.org/en/">node.js</a></p>
+<p><a href="https://imgtu.com/i/jEoss0"><img src="https://s1.ax1x.com/2022/06/27/jEoss0.png" alt="jEoss0.png"></a></p>
+<p>记得要下载最新版本</p>
+<p>下一步我们要安装<b href="https://github.com/hexojs/hexo">hexo</b></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<p>在powershell执行上方命令，即可安装。</p>
+<p><a href="https://imgtu.com/i/jE7939"><img src="https://s1.ax1x.com/2022/06/27/jE7939.png" alt="jE7939.png"></a></p>
+<h4 id="创建本地仓库"><a href="#创建本地仓库" class="headerlink" title="创建本地仓库"></a>创建本地仓库</h4><p>安装完后，就可以找个盘符创建本地仓库了。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure>
+
+<p>我这边创建在D盘下</p>
+<p><a href="https://imgtu.com/i/jE7NCQ"><img src="https://s1.ax1x.com/2022/06/27/jE7NCQ.png" alt="jE7NCQ.png"></a></p>
+<p>这样就创建完成了</p>
+<p>下期我们尝试把他部署到github上谢谢！！！</p>
+]]></content>
+      <tags>
+        <tag>博客</tag>
+      </tags>
   </entry>
 </search>
