@@ -66,4 +66,31 @@
         <tag>博客</tag>
       </tags>
   </entry>
+  <entry>
+    <title>python之基础教学--print</title>
+    <url>/2022/06/28/python%E4%B9%8B%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6-print/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="python—-print的用法"><a href="#python—-print的用法" class="headerlink" title="python—-print的用法"></a>python—-print的用法</h3> <span id="more"></span>
+<ul>
+<li><p>1, 的用法及含义</p>
+<ul>
+<li>~~~python<br>print(“hello”)</li>
+</ul>
+<h1 id="print是python输出数据的函数"><a href="#print是python输出数据的函数" class="headerlink" title="print是python输出数据的函数"></a>print是python输出数据的函数</h1><h1 id="大家可以去python-org下载python-10-3-5解释器"><a href="#大家可以去python-org下载python-10-3-5解释器" class="headerlink" title="大家可以去python.org下载python 10.3.5解释器"></a>大家可以去python.org下载python 10.3.5解释器</h1><h1 id="在里面运行-print-“hello”-即可输出hello"><a href="#在里面运行-print-“hello”-即可输出hello" class="headerlink" title="在里面运行 print(“hello”) 即可输出hello"></a>在里面运行 print(“hello”) 即可输出hello</h1>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">#### python-print中的end如何使用</span><br><span class="line"></span><br><span class="line">- python中的end是控制空行的东西比如</span><br><span class="line"></span><br><span class="line">  - ~~~python</span><br><span class="line">    while True:</span><br><span class="line">        print(1, end=&quot; &quot;) </span><br><span class="line">       # end中是有空格的</span><br><span class="line">    #输出就是 1 1 1 1 1 .......</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="python-print输出变量"><a href="#python-print输出变量" class="headerlink" title="python-print输出变量"></a>python-print输出变量</h4><ul>
+<li><p>print如何输出函数呢比如</p>
+<ul>
+<li>~~~python<br>a &#x3D; “hello”<br>print(a)</li>
+</ul>
+<h1 id="这样即可输出hello"><a href="#这样即可输出hello" class="headerlink" title="这样即可输出hello"></a>这样即可输出hello</h1><p>  ~~~</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>python学习之路dda</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
 </search>

@@ -1,3 +1,4 @@
+https://ohkl.github.io/2022/06/28/python%E4%B9%8B%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6-print/
 https://ohkl.github.io/2022/06/27/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/
 https://ohkl.github.io/categories/index.html
 https://ohkl.github.io/2022/06/22/hello-world/
@@ -6,4 +7,6 @@ https://ohkl.github.io/404/index.html
 https://ohkl.github.io/tags/index.html
 https://ohkl.github.io/
 https://ohkl.github.io/tags/%E5%8D%9A%E5%AE%A2/
+https://ohkl.github.io/tags/python/
 https://ohkl.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
+https://ohkl.github.io/categories/python%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AFdda/
