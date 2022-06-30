@@ -257,7 +257,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-06-30 14:26:38 / 修改时间：14:27:20" itemprop="dateCreated datePublished" datetime="2022-06-30T14:26:38+08:00">2022-06-30</time>
+      <time title="创建时间：2022-06-30 14:26:38 / 修改时间：14:28:29" itemprop="dateCreated datePublished" datetime="2022-06-30T14:26:38+08:00">2022-06-30</time>
     </span>
 
   
@@ -285,35 +285,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="python爬虫—1课"><a href="#python爬虫—1课" class="headerlink" title="python爬虫—1课"></a>python爬虫—1课</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>爬虫就是一段自动抓取互联网信息的程序，从互联网上抓取对于我们有价值的信息。</p>
-<p>Python爬虫是用Python编程语言实现的网络爬虫，主要用于网络数据的抓取和处理，相比于其他语言，Python是一门非常适合开发网络爬虫的编程语言，大量内置包，可以轻松实现网络爬虫功能。</p>
-<p>Python爬虫可以做的事情很多，如搜索引擎、采集数据、广告过滤等，Python爬虫还可以用于数据分析，在数据的抓取方面可以作用巨大！</p>
-<p><strong>Python爬虫架构组成</strong></p>
-<p>Python 爬虫架构主要由五个部分组成，分别是调度器、URL管理器、网页下载器、网页解析器、应用程序（爬取的有价值数据）。</p>
-<p>调度器：相当于一台电脑的CPU，主要负责调度URL管理器、下载器、解析器之间的协调工作。</p>
-<p>URL管理器：包括待爬取的URL地址和已爬取的URL地址，防止重复抓取URL和循环抓取URL，实现URL管理器主要用三种方式，通过内存、数据库、缓存数据库来实现。</p>
-<p>网页下载器：通过传入一个URL地址来下载网页，将网页转换成一个字符串，网页下载器有urllib2（Python官方基础模块）包括需要登录、代理、和cookie，requests(第三方包)</p>
-<p>网页解析器：将一个网页字符串进行解析，可以按照我们的要求来提取出我们有用的信息，也可以根据DOM树的解析方式来解析。网页解析器有正则表达式（直观，将网页转成字符串通过模糊匹配的方式来提取有价值的信息，当文档比较复杂的时候，该方法提取数据的时候就会非常的困难）、html.parser（Python自带的）、beautifulsoup（第三方插件，可以使用Python自带的html.parser进行解析，也可以使用lxml进行解析，相对于其他几种来说要强大一些）、lxml（第三方插件，可以解析 xml 和 HTML），html.parser 和 beautifulsoup 以及 lxml 都是以 DOM 树的方式进行解析的。</p>
-<p>应用程序：就是从网页中提取的有用数据组成的一个应用。</p>
-<p><strong>Python爬虫工作原理</strong></p>
-<p>Python爬虫通过URL管理器，判断是否有待爬URL，如果有待爬URL，通过调度器进行传递给下载器，下载URL内容，并通过调度器传送给解析器，解析URL内容，并将价值数据和新URL列表通过调度器传递给应用程序，并输出价值信息的过程。</p>
-<p><strong>Python爬虫常用框架有：</strong></p>
-<p>grab：网络爬虫框架（基于pycurl&#x2F;multicur）；</p>
-<p>scrapy：网络爬虫框架（基于twisted），不支持Python3；</p>
-<p>pyspider：一个强大的爬虫系统；</p>
-<p>cola：一个分布式爬虫框架；</p>
-<p>portia：基于Scrapy的可视化爬虫；</p>
-<p>restkit：Python的HTTP资源工具包。它可以让你轻松地访问HTTP资源，并围绕它建立的对象；</p>
-<p>demiurge：基于PyQuery的爬虫微框架。</p>
-<p>Python爬虫应用领域广泛，在网络爬虫领域处于霸主位置，Scrapy、Request、BeautifuSoap、urlib等框架的应用，可以实现爬行自如的功能，只要您数据抓取想法，Python爬虫均可实现！</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h4 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install requests</span><br><span class="line"><span class="comment">#即可安装爬虫</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="执行第一个爬虫程序"><a href="#执行第一个爬虫程序" class="headerlink" title="执行第一个爬虫程序"></a>执行第一个爬虫程序</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests <span class="comment"># 导入模块</span></span><br><span class="line">url = <span class="string">&quot;https://www.baidu.com&quot;</span> <span class="comment">#网站地址</span></span><br><span class="line">resp = requests.get(url) <span class="comment">#用get请求源代码</span></span><br><span class="line"><span class="built_in">print</span>(resp.text) <span class="comment">#输出源代码</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
-<li>python爬虫可以获取源代码里的信息</li>
-</ul>
-
+          <h2 id="python爬虫—1课"><a href="#python爬虫—1课" class="headerlink" title="python爬虫—1课"></a>python爬虫—1课</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/06/30/python%E7%88%AC%E8%99%AB/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
