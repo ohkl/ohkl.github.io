@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ohkl.github.io/2022/07/16/SSR%E8%8A%82%E7%82%B9%E5%85%8D%E8%B4%B9%E5%8F%91%E6%94%BE/</loc>
+    
+    <lastmod>2022-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ohkl.github.io/2022/07/13/sql%E6%89%8B%E6%B3%A8%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/</loc>
     
     <lastmod>2022-07-13</lastmod>
@@ -114,6 +123,13 @@
   
   <url>
     <loc>https://ohkl.github.io/tags/sql%E6%B3%A8%E5%85%A5/</loc>
+    <lastmod>2022-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ohkl.github.io/tags/SSR%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2022-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
